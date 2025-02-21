@@ -39,11 +39,6 @@ https://praticles-flutter-raja-jains-projects.vercel.app/
 </p>
 
 
-## Support
-If you find this package useful, please consider giving it a star on [GitHub](https://github.com/rajajain08/particles_flutter) and a thumbs up on [Pub.dev](https://pub.dev/packages/particles_flutter). Your support is greatly appreciated!
-
-<a href="https://www.buymeacoffee.com/rajajain08" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="32" width="140"></a>
-
 ## Contributions
 
 Feel free to contribute to this project.
@@ -52,5 +47,11 @@ If you find a bug or want a feature, but don't know how to fix/implement it, ple
 If you fixed a bug or implemented a new feature, please send a [pull request](https://github.com/rajajain08/particles_flutter/pulls).
 
 If you want to contact me, Please send me a short DM on [Twitter](https://twitter.com/rajajain08).
+
+## Support
+If you find this package useful, please consider giving it a star on [GitHub](https://github.com/rajajain08/particles_flutter) and a thumbs up on [Pub.dev](https://pub.dev/packages/particles_flutter). Your support is greatly appreciated!
+
+<a href="https://www.buymeacoffee.com/rajajain08" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="32" width="140"></a>
+
 
 
