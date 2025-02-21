@@ -14,20 +14,23 @@ class CircularParticlePainter extends CustomPainter {
 
   @override
   void paint(Canvas canvas, Size size) {
-    for (int index = 0; index < particles.length; index++) {   
-        canvas.drawCircle(
-            particles[index].position,
-            particles[index].size,
-            Paint()..color = particles[index].color,
-            );
-      
+    for (int index = 0; index < particles.length; index++) {
+      canvas.drawCircle(
+        particles[index].position,
+        particles[index].size,
+        Paint()..color = particles[index].color,
+      );
     }
-    for (int index = 0; index < lineOffsets.length; index++){
-        randomColorPaint = Paint()
-          ..color = (lineOffsets[index][0] as Particle).color
-          ..strokeWidth = ( 2 * (1-lineOffsets[index][2]/100)).toDouble();
-        canvas.drawLine((lineOffsets[index][0] as Particle).position, (lineOffsets[index][1] as Particle).position, randomColorPaint!,);
-      }
+    for (int index = 0; index < lineOffsets.length; index++) {
+      randomColorPaint = Paint()
+        ..color = (lineOffsets[index][0] as Particle).color
+        ..strokeWidth = (2 * (1 - lineOffsets[index][2] / 100)).toDouble();
+      canvas.drawLine(
+        (lineOffsets[index][0] as Particle).position,
+        (lineOffsets[index][1] as Particle).position,
+        randomColorPaint!,
+      );
+    }
   }
 
   @override
